@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AF9678262E310E00AA28B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9677262E310E00AA28B1 /* AppDelegate.swift */; };
+		84AF967A262E310E00AA28B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9679262E310E00AA28B1 /* SceneDelegate.swift */; };
+		84AF967C262E310E00AA28B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF967B262E310E00AA28B1 /* ViewController.swift */; };
+		84AF967F262E310E00AA28B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF967D262E310E00AA28B1 /* Main.storyboard */; };
+		84AF9682262E310E00AA28B1 /* Resort.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9680262E310E00AA28B1 /* Resort.xcdatamodeld */; };
+		84AF9684262E311100AA28B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AF9683262E311100AA28B1 /* Assets.xcassets */; };
+		84AF9687262E311100AA28B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF9685262E311100AA28B1 /* LaunchScreen.storyboard */; };
+		84AF96A4262F2F4B00AA28B1 /* Screen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF96A3262F2F4B00AA28B1 /* Screen1ViewController.swift */; };
+		84AF96C8262F7E9100AA28B1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF96C7262F7E9100AA28B1 /* SignUpViewController.swift */; };
+		84AF96CB262F82AF00AA28B1 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF96CA262F82AF00AA28B1 /* ForgetPasswordViewController.swift */; };
+		84AF96CE2630794C00AA28B1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF96CD2630794C00AA28B1 /* WelcomeViewController.swift */; };
+		84AF97BB2632115400AA28B1 /* ResortServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF97BA2632115400AA28B1 /* ResortServicesViewController.swift */; };
+		84AF97BE263214B300AA28B1 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF97BD263214B300AA28B1 /* RoomViewController.swift */; };
+		84AF97C12632165A00AA28B1 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF97C02632165A00AA28B1 /* FoodViewController.swift */; };
+		84AF97C4263217B300AA28B1 /* GYMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF97C3263217B300AA28B1 /* GYMViewController.swift */; };
+		84AF97C72632197700AA28B1 /* SPAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF97C62632197700AA28B1 /* SPAViewController.swift */; };
+		84AF97CA26321AB700AA28B1 /* OverAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF97C926321AB700AA28B1 /* OverAllViewController.swift */; };
+		84AF97CD26321BFD00AA28B1 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF97CC26321BFD00AA28B1 /* ThankYouViewController.swift */; };
+		84AF99CD263C8A1A00AA28B1 /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF99CB263C8A1A00AA28B1 /* UserData+CoreDataClass.swift */; };
+		84AF99CE263C8A1A00AA28B1 /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF99CC263C8A1A00AA28B1 /* UserData+CoreDataProperties.swift */; };
+		84AF99D3263C8D3A00AA28B1 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF99D2263C8D3A00AA28B1 /* DBHelper.swift */; };
+		84AF9A192640A48100AA28B1 /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A092640A48100AA28B1 /* CosmosText.swift */; };
+		84AF9A1A2640A48100AA28B1 /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A0A2640A48100AA28B1 /* CosmosRating.swift */; };
+		84AF9A1B2640A48100AA28B1 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A0B2640A48100AA28B1 /* CosmosSettings.swift */; };
+		84AF9A1C2640A48200AA28B1 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A0C2640A48100AA28B1 /* CosmosLayerHelper.swift */; };
+		84AF9A1D2640A48200AA28B1 /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A0D2640A48100AA28B1 /* CosmosAccessibility.swift */; };
+		84AF9A1E2640A48200AA28B1 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A0E2640A48100AA28B1 /* StarFillMode.swift */; };
+		84AF9A1F2640A48200AA28B1 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A0F2640A48100AA28B1 /* StarLayer.swift */; };
+		84AF9A202640A48200AA28B1 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A102640A48100AA28B1 /* CosmosView.swift */; };
+		84AF9A212640A48200AA28B1 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A112640A48100AA28B1 /* CosmosTouch.swift */; };
+		84AF9A222640A48200AA28B1 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A122640A48100AA28B1 /* CosmosTouchTarget.swift */; };
+		84AF9A232640A48200AA28B1 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A132640A48100AA28B1 /* CosmosDefaultSettings.swift */; };
+		84AF9A242640A48200AA28B1 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A142640A48100AA28B1 /* RightToLeft.swift */; };
+		84AF9A252640A48200AA28B1 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A152640A48100AA28B1 /* CosmosSize.swift */; };
+		84AF9A262640A48200AA28B1 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A162640A48100AA28B1 /* CosmosLayers.swift */; };
+		84AF9A272640A48200AA28B1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A172640A48100AA28B1 /* CosmosLocalizedRating.swift */; };
+		84AF9A2D2641996200AA28B1 /* aladdin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF9A2C2641996200AA28B1 /* aladdin.jpg */; };
+		84AF9A302641BC8000AA28B1 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A2F2641BC8000AA28B1 /* AdminViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84AF9674262E310E00AA28B1 /* Resort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AF9677262E310E00AA28B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AF9679262E310E00AA28B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84AF967B262E310E00AA28B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84AF967E262E310E00AA28B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AF9681262E310E00AA28B1 /* Resort.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Resort.xcdatamodel; sourceTree = "<group>"; };
+		84AF9683262E311100AA28B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AF9686262E311100AA28B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AF9688262E311100AA28B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AF96A3262F2F4B00AA28B1 /* Screen1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1ViewController.swift; sourceTree = "<group>"; };
+		84AF96C7262F7E9100AA28B1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		84AF96CA262F82AF00AA28B1 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		84AF96CD2630794C00AA28B1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		84AF97BA2632115400AA28B1 /* ResortServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortServicesViewController.swift; sourceTree = "<group>"; };
+		84AF97BD263214B300AA28B1 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		84AF97C02632165A00AA28B1 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		84AF97C3263217B300AA28B1 /* GYMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYMViewController.swift; sourceTree = "<group>"; };
+		84AF97C62632197700AA28B1 /* SPAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAViewController.swift; sourceTree = "<group>"; };
+		84AF97C926321AB700AA28B1 /* OverAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverAllViewController.swift; sourceTree = "<group>"; };
+		84AF97CC26321BFD00AA28B1 /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		84AF99CB263C8A1A00AA28B1 /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84AF99CC263C8A1A00AA28B1 /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84AF99D2263C8D3A00AA28B1 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		84AF9A092640A48100AA28B1 /* CosmosText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = "../../../../../Downloads/Rating File-2/CosmosText.swift"; sourceTree = "<group>"; };
+		84AF9A0A2640A48100AA28B1 /* CosmosRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = "../../../../../Downloads/Rating File-2/CosmosRating.swift"; sourceTree = "<group>"; };
+		84AF9A0B2640A48100AA28B1 /* CosmosSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = "../../../../../Downloads/Rating File-2/CosmosSettings.swift"; sourceTree = "<group>"; };
+		84AF9A0C2640A48100AA28B1 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = "../../../../../Downloads/Rating File-2/CosmosLayerHelper.swift"; sourceTree = "<group>"; };
+		84AF9A0D2640A48100AA28B1 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = "../../../../../Downloads/Rating File-2/CosmosAccessibility.swift"; sourceTree = "<group>"; };
+		84AF9A0E2640A48100AA28B1 /* StarFillMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = "../../../../../Downloads/Rating File-2/StarFillMode.swift"; sourceTree = "<group>"; };
+		84AF9A0F2640A48100AA28B1 /* StarLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = "../../../../../Downloads/Rating File-2/StarLayer.swift"; sourceTree = "<group>"; };
+		84AF9A102640A48100AA28B1 /* CosmosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = "../../../../../Downloads/Rating File-2/CosmosView.swift"; sourceTree = "<group>"; };
+		84AF9A112640A48100AA28B1 /* CosmosTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = "../../../../../Downloads/Rating File-2/CosmosTouch.swift"; sourceTree = "<group>"; };
+		84AF9A122640A48100AA28B1 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = "../../../../../Downloads/Rating File-2/CosmosTouchTarget.swift"; sourceTree = "<group>"; };
+		84AF9A132640A48100AA28B1 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = "../../../../../Downloads/Rating File-2/CosmosDefaultSettings.swift"; sourceTree = "<group>"; };
+		84AF9A142640A48100AA28B1 /* RightToLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = "../../../../../Downloads/Rating File-2/RightToLeft.swift"; sourceTree = "<group>"; };
+		84AF9A152640A48100AA28B1 /* CosmosSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = "../../../../../Downloads/Rating File-2/CosmosSize.swift"; sourceTree = "<group>"; };
+		84AF9A162640A48100AA28B1 /* CosmosLayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = "../../../../../Downloads/Rating File-2/CosmosLayers.swift"; sourceTree = "<group>"; };
+		84AF9A172640A48100AA28B1 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = "../../../../../Downloads/Rating File-2/CosmosLocalizedRating.swift"; sourceTree = "<group>"; };
+		84AF9A182640A48100AA28B1 /* Cosmos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cosmos.h; path = "../../../../../Downloads/Rating File-2/Cosmos.h"; sourceTree = "<group>"; };
+		84AF9A2C2641996200AA28B1 /* aladdin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aladdin.jpg; path = ../../../aladdin.jpg; sourceTree = "<group>"; };
+		84AF9A2F2641BC8000AA28B1 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AF9671262E310E00AA28B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AF966B262E310E00AA28B1 = {
+			isa = PBXGroup;
+			children = (
+				84AF99CB263C8A1A00AA28B1 /* UserData+CoreDataClass.swift */,
+				84AF99CC263C8A1A00AA28B1 /* UserData+CoreDataProperties.swift */,
+				84AF9676262E310E00AA28B1 /* Resort */,
+				84AF9675262E310E00AA28B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AF9675262E310E00AA28B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AF9674262E310E00AA28B1 /* Resort.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AF9676262E310E00AA28B1 /* Resort */ = {
+			isa = PBXGroup;
+			children = (
+				84AF9A2C2641996200AA28B1 /* aladdin.jpg */,
+				84AF999E263B2DB500AA28B1 /* Cosmos */,
+				84AF9677262E310E00AA28B1 /* AppDelegate.swift */,
+				84AF9679262E310E00AA28B1 /* SceneDelegate.swift */,
+				84AF967B262E310E00AA28B1 /* ViewController.swift */,
+				84AF967D262E310E00AA28B1 /* Main.storyboard */,
+				84AF9683262E311100AA28B1 /* Assets.xcassets */,
+				84AF9685262E311100AA28B1 /* LaunchScreen.storyboard */,
+				84AF9688262E311100AA28B1 /* Info.plist */,
+				84AF9680262E310E00AA28B1 /* Resort.xcdatamodeld */,
+				84AF96A3262F2F4B00AA28B1 /* Screen1ViewController.swift */,
+				84AF96C7262F7E9100AA28B1 /* SignUpViewController.swift */,
+				84AF96CA262F82AF00AA28B1 /* ForgetPasswordViewController.swift */,
+				84AF96CD2630794C00AA28B1 /* WelcomeViewController.swift */,
+				84AF97BA2632115400AA28B1 /* ResortServicesViewController.swift */,
+				84AF97BD263214B300AA28B1 /* RoomViewController.swift */,
+				84AF97C02632165A00AA28B1 /* FoodViewController.swift */,
+				84AF97C3263217B300AA28B1 /* GYMViewController.swift */,
+				84AF97C62632197700AA28B1 /* SPAViewController.swift */,
+				84AF97C926321AB700AA28B1 /* OverAllViewController.swift */,
+				84AF97CC26321BFD00AA28B1 /* ThankYouViewController.swift */,
+				84AF99D2263C8D3A00AA28B1 /* DBHelper.swift */,
+				84AF9A2F2641BC8000AA28B1 /* AdminViewController.swift */,
+			);
+			path = Resort;
+			sourceTree = "<group>";
+		};
+		84AF999E263B2DB500AA28B1 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				84AF9A182640A48100AA28B1 /* Cosmos.h */,
+				84AF9A0D2640A48100AA28B1 /* CosmosAccessibility.swift */,
+				84AF9A132640A48100AA28B1 /* CosmosDefaultSettings.swift */,
+				84AF9A0C2640A48100AA28B1 /* CosmosLayerHelper.swift */,
+				84AF9A162640A48100AA28B1 /* CosmosLayers.swift */,
+				84AF9A172640A48100AA28B1 /* CosmosLocalizedRating.swift */,
+				84AF9A0A2640A48100AA28B1 /* CosmosRating.swift */,
+				84AF9A0B2640A48100AA28B1 /* CosmosSettings.swift */,
+				84AF9A152640A48100AA28B1 /* CosmosSize.swift */,
+				84AF9A092640A48100AA28B1 /* CosmosText.swift */,
+				84AF9A112640A48100AA28B1 /* CosmosTouch.swift */,
+				84AF9A122640A48100AA28B1 /* CosmosTouchTarget.swift */,
+				84AF9A102640A48100AA28B1 /* CosmosView.swift */,
+				84AF9A142640A48100AA28B1 /* RightToLeft.swift */,
+				84AF9A0E2640A48100AA28B1 /* StarFillMode.swift */,
+				84AF9A0F2640A48100AA28B1 /* StarLayer.swift */,
+			);
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AF9673262E310E00AA28B1 /* Resort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AF968B262E311100AA28B1 /* Build configuration list for PBXNativeTarget "Resort" */;
+			buildPhases = (
+				84AF9670262E310E00AA28B1 /* Sources */,
+				84AF9671262E310E00AA28B1 /* Frameworks */,
+				84AF9672262E310E00AA28B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resort;
+			productName = Resort;
+			productReference = 84AF9674262E310E00AA28B1 /* Resort.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AF966C262E310E00AA28B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					84AF9673262E310E00AA28B1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 84AF966F262E310E00AA28B1 /* Build configuration list for PBXProject "Resort" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AF966B262E310E00AA28B1;
+			productRefGroup = 84AF9675262E310E00AA28B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AF9673262E310E00AA28B1 /* Resort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AF9672262E310E00AA28B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF9687262E311100AA28B1 /* LaunchScreen.storyboard in Resources */,
+				84AF9684262E311100AA28B1 /* Assets.xcassets in Resources */,
+				84AF967F262E310E00AA28B1 /* Main.storyboard in Resources */,
+				84AF9A2D2641996200AA28B1 /* aladdin.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AF9670262E310E00AA28B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF99CE263C8A1A00AA28B1 /* UserData+CoreDataProperties.swift in Sources */,
+				84AF96C8262F7E9100AA28B1 /* SignUpViewController.swift in Sources */,
+				84AF97BB2632115400AA28B1 /* ResortServicesViewController.swift in Sources */,
+				84AF97C4263217B300AA28B1 /* GYMViewController.swift in Sources */,
+				84AF9A222640A48200AA28B1 /* CosmosTouchTarget.swift in Sources */,
+				84AF9A212640A48200AA28B1 /* CosmosTouch.swift in Sources */,
+				84AF9A1F2640A48200AA28B1 /* StarLayer.swift in Sources */,
+				84AF96CE2630794C00AA28B1 /* WelcomeViewController.swift in Sources */,
+				84AF97C12632165A00AA28B1 /* FoodViewController.swift in Sources */,
+				84AF9A1A2640A48100AA28B1 /* CosmosRating.swift in Sources */,
+				84AF97BE263214B300AA28B1 /* RoomViewController.swift in Sources */,
+				84AF9A232640A48200AA28B1 /* CosmosDefaultSettings.swift in Sources */,
+				84AF9A192640A48100AA28B1 /* CosmosText.swift in Sources */,
+				84AF967C262E310E00AA28B1 /* ViewController.swift in Sources */,
+				84AF9A242640A48200AA28B1 /* RightToLeft.swift in Sources */,
+				84AF96A4262F2F4B00AA28B1 /* Screen1ViewController.swift in Sources */,
+				84AF97CA26321AB700AA28B1 /* OverAllViewController.swift in Sources */,
+				84AF9A302641BC8000AA28B1 /* AdminViewController.swift in Sources */,
+				84AF9A262640A48200AA28B1 /* CosmosLayers.swift in Sources */,
+				84AF97CD26321BFD00AA28B1 /* ThankYouViewController.swift in Sources */,
+				84AF97C72632197700AA28B1 /* SPAViewController.swift in Sources */,
+				84AF9678262E310E00AA28B1 /* AppDelegate.swift in Sources */,
+				84AF96CB262F82AF00AA28B1 /* ForgetPasswordViewController.swift in Sources */,
+				84AF99D3263C8D3A00AA28B1 /* DBHelper.swift in Sources */,
+				84AF9A202640A48200AA28B1 /* CosmosView.swift in Sources */,
+				84AF9A1D2640A48200AA28B1 /* CosmosAccessibility.swift in Sources */,
+				84AF9682262E310E00AA28B1 /* Resort.xcdatamodeld in Sources */,
+				84AF9A1E2640A48200AA28B1 /* StarFillMode.swift in Sources */,
+				84AF99CD263C8A1A00AA28B1 /* UserData+CoreDataClass.swift in Sources */,
+				84AF9A272640A48200AA28B1 /* CosmosLocalizedRating.swift in Sources */,
+				84AF967A262E310E00AA28B1 /* SceneDelegate.swift in Sources */,
+				84AF9A1B2640A48100AA28B1 /* CosmosSettings.swift in Sources */,
+				84AF9A1C2640A48200AA28B1 /* CosmosLayerHelper.swift in Sources */,
+				84AF9A252640A48200AA28B1 /* CosmosSize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84AF967D262E310E00AA28B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF967E262E310E00AA28B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AF9685262E311100AA28B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF9686262E311100AA28B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AF9689262E311100AA28B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84AF968A262E311100AA28B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AF968C262E311100AA28B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KH.Resort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AF968D262E311100AA28B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KH.Resort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AF966F262E310E00AA28B1 /* Build configuration list for PBXProject "Resort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF9689262E311100AA28B1 /* Debug */,
+				84AF968A262E311100AA28B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AF968B262E311100AA28B1 /* Build configuration list for PBXNativeTarget "Resort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF968C262E311100AA28B1 /* Debug */,
+				84AF968D262E311100AA28B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84AF9680262E310E00AA28B1 /* Resort.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84AF9681262E310E00AA28B1 /* Resort.xcdatamodel */,
+			);
+			currentVersion = 84AF9681262E310E00AA28B1 /* Resort.xcdatamodel */;
+			path = Resort.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84AF966C262E310E00AA28B1 /* Project object */;
+}
